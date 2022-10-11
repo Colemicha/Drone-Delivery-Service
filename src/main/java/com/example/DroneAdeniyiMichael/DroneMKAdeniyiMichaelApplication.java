@@ -12,7 +12,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DroneAdeniyiMichaelApplication implements CommandLineRunner {
+public class DroneMKAdeniyiMichaelApplication implements CommandLineRunner {
 
     @Autowired
     DroneRepository droneRepository;
@@ -21,7 +21,7 @@ public class DroneAdeniyiMichaelApplication implements CommandLineRunner {
     MedicationRepository medicationRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(DroneAdeniyiMichaelApplication.class, args);
+        SpringApplication.run(DroneMKAdeniyiMichaelApplication.class, args);
     }
 
     @Override
