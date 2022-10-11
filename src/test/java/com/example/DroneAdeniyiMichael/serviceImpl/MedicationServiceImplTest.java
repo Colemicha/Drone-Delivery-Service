@@ -1,8 +1,7 @@
-package com.example.MusalaSoftEnwereVincent.serviceImpl;
+package com.example.DroneAdeniyiMichael.serviceImpl;
 
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.repository.MedicationRepository;
-import com.example.MusalaSoftEnwereVincent.service.MedicationService;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.repository.MedicationRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

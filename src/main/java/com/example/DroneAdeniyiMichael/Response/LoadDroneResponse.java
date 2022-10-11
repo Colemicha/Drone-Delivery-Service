@@ -1,6 +1,6 @@
-package com.example.MusalaSoftEnwereVincent.Response;
+package com.example.DroneAdeniyiMichael.Response;
 
-import com.example.MusalaSoftEnwereVincent.model.Medication;
+import com.example.DroneAdeniyiMichael.model.Medication;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

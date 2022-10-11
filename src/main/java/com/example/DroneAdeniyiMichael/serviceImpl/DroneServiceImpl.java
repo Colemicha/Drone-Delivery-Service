@@ -1,14 +1,14 @@
-package com.example.MusalaSoftEnwereVincent.serviceImpl;
-import com.example.MusalaSoftEnwereVincent.Response.*;
-import com.example.MusalaSoftEnwereVincent.enumeration.State;
-import com.example.MusalaSoftEnwereVincent.exception.DroneNotFoundException;
-import com.example.MusalaSoftEnwereVincent.exception.ExcessWeightException;
-import com.example.MusalaSoftEnwereVincent.exception.MedicationNotFoundException;
-import com.example.MusalaSoftEnwereVincent.model.Drone;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.repository.DroneRepository;
-import com.example.MusalaSoftEnwereVincent.repository.MedicationRepository;
-import com.example.MusalaSoftEnwereVincent.service.DroneService;
+package com.example.DroneAdeniyiMichael.serviceImpl;
+import com.example.DroneAdeniyiMichael.Response.*;
+import com.example.DroneAdeniyiMichael.enumeration.State;
+import com.example.DroneAdeniyiMichael.exception.DroneNotFoundException;
+import com.example.DroneAdeniyiMichael.exception.ExcessWeightException;
+import com.example.DroneAdeniyiMichael.exception.MedicationNotFoundException;
+import com.example.DroneAdeniyiMichael.model.Drone;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.repository.DroneRepository;
+import com.example.DroneAdeniyiMichael.repository.MedicationRepository;
+import com.example.DroneAdeniyiMichael.service.DroneService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,6 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.*;
-import java.util.stream.Collectors;
 
 //TODO: Introduce a periodic task to check drones battery levels and create history/audit event log for this.
 //TODO: Unit Testing;

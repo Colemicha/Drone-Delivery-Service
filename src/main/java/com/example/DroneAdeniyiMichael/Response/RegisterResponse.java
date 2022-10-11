@@ -1,4 +1,4 @@
-package com.example.MusalaSoftEnwereVincent.Response;
+package com.example.DroneAdeniyiMichael.Response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

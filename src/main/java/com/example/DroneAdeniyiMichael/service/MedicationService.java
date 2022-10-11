@@ -1,5 +1,5 @@
-package com.example.MusalaSoftEnwereVincent.service;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
+package com.example.DroneAdeniyiMichael.service;
+import com.example.DroneAdeniyiMichael.model.Medication;
 
 import java.util.List;
 

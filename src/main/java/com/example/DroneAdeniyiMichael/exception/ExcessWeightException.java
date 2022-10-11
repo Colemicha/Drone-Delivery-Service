@@ -1,4 +1,4 @@
-package com.example.MusalaSoftEnwereVincent.exception;
+package com.example.DroneAdeniyiMichael.exception;
 
 public class ExcessWeightException extends RuntimeException{
     public ExcessWeightException(String message) {

@@ -1,21 +1,18 @@
-package com.example.MusalaSoftEnwereVincent;
+package com.example.DroneAdeniyiMichael;
 
-import com.example.MusalaSoftEnwereVincent.enumeration.Model;
-import com.example.MusalaSoftEnwereVincent.enumeration.State;
-import com.example.MusalaSoftEnwereVincent.model.Drone;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.repository.DroneRepository;
-import com.example.MusalaSoftEnwereVincent.repository.MedicationRepository;
+import com.example.DroneAdeniyiMichael.enumeration.Model;
+import com.example.DroneAdeniyiMichael.enumeration.State;
+import com.example.DroneAdeniyiMichael.model.Drone;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.repository.DroneRepository;
+import com.example.DroneAdeniyiMichael.repository.MedicationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @SpringBootApplication
-public class MusalaSoftEnwereVincentApplication implements CommandLineRunner {
+public class DroneAdeniyiMichaelApplication implements CommandLineRunner {
 
     @Autowired
     DroneRepository droneRepository;
@@ -24,7 +21,7 @@ public class MusalaSoftEnwereVincentApplication implements CommandLineRunner {
     MedicationRepository medicationRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(MusalaSoftEnwereVincentApplication.class, args);
+        SpringApplication.run(DroneAdeniyiMichaelApplication.class, args);
     }
 
     @Override

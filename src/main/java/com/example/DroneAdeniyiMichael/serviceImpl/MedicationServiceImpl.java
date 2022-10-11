@@ -1,9 +1,9 @@
-package com.example.MusalaSoftEnwereVincent.serviceImpl;
-import com.example.MusalaSoftEnwereVincent.exception.MedicationNotFoundException;
-import com.example.MusalaSoftEnwereVincent.exception.MedicationNotSavedException;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.repository.MedicationRepository;
-import com.example.MusalaSoftEnwereVincent.service.MedicationService;
+package com.example.DroneAdeniyiMichael.serviceImpl;
+import com.example.DroneAdeniyiMichael.exception.MedicationNotFoundException;
+import com.example.DroneAdeniyiMichael.exception.MedicationNotSavedException;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.repository.MedicationRepository;
+import com.example.DroneAdeniyiMichael.service.MedicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

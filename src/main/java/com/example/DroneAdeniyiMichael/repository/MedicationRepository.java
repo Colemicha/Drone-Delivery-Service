@@ -1,6 +1,6 @@
-package com.example.MusalaSoftEnwereVincent.repository;
+package com.example.DroneAdeniyiMichael.repository;
 
-import com.example.MusalaSoftEnwereVincent.model.Medication;
+import com.example.DroneAdeniyiMichael.model.Medication;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

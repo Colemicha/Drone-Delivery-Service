@@ -1,28 +1,24 @@
-package com.example.MusalaSoftEnwereVincent.serviceImpl;
+package com.example.DroneAdeniyiMichael.serviceImpl;
 
-import com.example.MusalaSoftEnwereVincent.Response.*;
-import com.example.MusalaSoftEnwereVincent.enumeration.Model;
-import com.example.MusalaSoftEnwereVincent.enumeration.State;
-import com.example.MusalaSoftEnwereVincent.model.Drone;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.repository.DroneRepository;
-import com.example.MusalaSoftEnwereVincent.repository.MedicationRepository;
-import org.aspectj.lang.annotation.Before;
+import com.example.DroneAdeniyiMichael.Response.*;
+import com.example.DroneAdeniyiMichael.enumeration.State;
+import com.example.DroneAdeniyiMichael.model.Drone;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.repository.DroneRepository;
+import com.example.DroneAdeniyiMichael.repository.MedicationRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Bean;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import static com.example.MusalaSoftEnwereVincent.enumeration.Model.HEAVYWEIGHT;
+import static com.example.DroneAdeniyiMichael.enumeration.Model.HEAVYWEIGHT;
 import static java.time.Month.AUGUST;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;

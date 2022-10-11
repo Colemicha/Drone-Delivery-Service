@@ -1,7 +1,6 @@
-package com.example.MusalaSoftEnwereVincent.model;
+package com.example.DroneAdeniyiMichael.model;
 
 import lombok.*;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 

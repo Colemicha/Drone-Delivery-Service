@@ -1,9 +1,8 @@
-package com.example.MusalaSoftEnwereVincent.model;
-import com.example.MusalaSoftEnwereVincent.enumeration.Model;
-import com.example.MusalaSoftEnwereVincent.enumeration.State;
+package com.example.DroneAdeniyiMichael.model;
+import com.example.DroneAdeniyiMichael.enumeration.Model;
+import com.example.DroneAdeniyiMichael.enumeration.State;
 
 import lombok.*;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 

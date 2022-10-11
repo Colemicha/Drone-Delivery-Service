@@ -1,10 +1,10 @@
-package com.example.MusalaSoftEnwereVincent.controller;
+package com.example.DroneAdeniyiMichael.controller;
 
-import com.example.MusalaSoftEnwereVincent.Response.*;
-import com.example.MusalaSoftEnwereVincent.model.Drone;
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.service.DroneService;
-import com.example.MusalaSoftEnwereVincent.service.MedicationService;
+import com.example.DroneAdeniyiMichael.Response.*;
+import com.example.DroneAdeniyiMichael.model.Drone;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.service.DroneService;
+import com.example.DroneAdeniyiMichael.service.MedicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

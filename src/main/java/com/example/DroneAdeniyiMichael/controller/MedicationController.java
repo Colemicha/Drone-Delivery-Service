@@ -1,7 +1,7 @@
-package com.example.MusalaSoftEnwereVincent.controller;
+package com.example.DroneAdeniyiMichael.controller;
 
-import com.example.MusalaSoftEnwereVincent.model.Medication;
-import com.example.MusalaSoftEnwereVincent.service.MedicationService;
+import com.example.DroneAdeniyiMichael.model.Medication;
+import com.example.DroneAdeniyiMichael.service.MedicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
